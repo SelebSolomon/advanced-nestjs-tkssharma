@@ -1,0 +1,10 @@
+
+services:
+  postgres: {}  # empty mapping is valid
+  mongodb: {}
+  redis: {}
+
+volumes:
+  test_api_data:
+  mongodata:
+  cache:
