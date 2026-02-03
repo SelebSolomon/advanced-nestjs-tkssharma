@@ -1,5 +1,5 @@
 {
-  "name": "05-nestjs-prisma-playground",
+  "name": "10-nestjs-file-upload",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -34,14 +34,15 @@
     "@nestjs/typeorm": "^11.0.0",
     "@prisma/adapter-pg": "^7.3.0",
     "@types/uuid": "^9.0.8",
-    "axios": "^1.13.2",
+    "axios": "^1.13.4",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.3",
     "dotenv": "^17.2.3",
     "express": "^4.22.1",
     "express-basic-auth": "^1.2.1",
     "helmet": "^8.1.0",
-    "pg": "^8.17.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.18.0",
     "prisma": "^7.3.0",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
@@ -59,7 +60,7 @@
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/node": "^22.19.7",
-    "@types/nodemailer": "^7.0.5",
+    "@types/nodemailer": "^7.0.9",
     "@types/supertest": "^6.0.3",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
@@ -74,7 +75,7 @@
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.53.1"
+    "typescript-eslint": "^8.54.0"
   },
   "jest": {
     "moduleFileExtensions": [

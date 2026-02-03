@@ -11,8 +11,6 @@ import { RestaurantEntity } from './restaurants/entities/restaurant.entity';
 import { RestaurantController } from './restaurants/controllers/restaurant.controller';
 import { RestaurantService } from './restaurants/services/restaurant.service';
 import { RestaurantModule } from './restaurants/restaurant.module';
-import { PrismaModule } from './prisma/prisma.module';
-import { GithubModule } from './github/github.module';
 
 // this logics will take some time to digest so dont panic all are coming from the package folder... and there is also another method of register instead of registerAsync... so take your time to be practicing
 @Module({
@@ -44,8 +42,6 @@ import { GithubModule } from './github/github.module';
       ],
     }),
     RestaurantModule,
-    PrismaModule,
-    GithubModule,
   ],
   controllers: [],
   providers: [],
